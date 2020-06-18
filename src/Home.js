@@ -17,7 +17,7 @@ class App extends React.Component {
         this.state  = {
           apiKey : API_KEY,
           articles : [],
-          newsTopic: 'latest news',
+          newsTopic: 'vancouver',
           loading:false,
         };
 

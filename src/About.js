@@ -5,13 +5,10 @@ class About extends React.Component {
     render() {
       return  (
       <div>
-  
         <div className='about wrapper'>
        		<p>Credits to the newsapi.org</p> 
-			<p>For educational purposes only.</p>
-			
+			<p>For educational purposes only.</p>	
         </div>
-        
       </div>
       );
        
