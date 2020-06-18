@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link, Switch }
 import './App.css';
 import Home from './Home';
 import About from './About';
-import NotFound from './NotFound';
+// import NotFound from './NotFound';
 
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path={'/about'} exact component={About} />
-            <Route path="*" component={NotFound} />
+            <Route> 404 Page Not Found</Route>
           </Switch>
       </div>
     </Router>);
