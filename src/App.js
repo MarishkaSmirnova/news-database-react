@@ -14,13 +14,13 @@ class App extends Component {
           <div className="header">
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/newsDatabase/about">About</Link></li>
+              <li><Link to="/newsApp/about">About</Link></li>
             </ul>
           </div>
 
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path={'/newsDatabase/about'} exact component={About} />
+            <Route exact path="/newsApp/" component={Home} />
+            <Route path={'/newsApp/about'} exact component={About} />
             <Route path="*" component={NotFound} />
           </Switch>
       </div>
