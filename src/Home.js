@@ -6,7 +6,7 @@ import Articles from './Articles';
 import Footer from './Footer';
 
 const API_KEY   = 'e3250e05ddb74da1a085f95cc17c94e9';
-const BASE_URL  = 'https://newsapi.org/v2/everything?sortBy=publishedAt&apiKey='
+const BASE_URL  = 'https://newsapi.org/v2/everything?q=bitcoin&apiKey='
                 + API_KEY + "&q=";
 const LAST_QUERY = "lastQuery";
 const cookieService = new CookieService();
